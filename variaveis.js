@@ -7,7 +7,7 @@ if (selecionepersonagens == 1) {
     location.replace("./Zoar-Feiticeira/feiticeira.html");
   }
   else if (selecionepersonagens == 3) {
-    location.replace("./Teela/Teela.html");
+    location.replace("./Teela/teela.html");
   }else {
       alert("opção inválida: Digite 1, 2 ou 3");
   }
