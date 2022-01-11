@@ -1,0 +1,52 @@
+body{
+    background-image: url(../eternia.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+.imagem {
+    text-align: center;   
+    margin-top:30px;
+}
+
+h1, p {
+    background-color: purple;
+    border-radius: 50px;
+    font: 1em sans-serif;
+    max-width: 350px;
+    max-height: 100px;
+    color: whitesmoke;
+    text-align: center;   
+}
+
+p {
+    background-color: white;
+    color: black;
+}
+
+.titulo {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    
+    text-align: center;
+    color: #F94716;
+    font-size: 20px;
+    margin: 4px 2px;
+    padding: 17px 15px;
+    border-radius: 50px;
+    background-color: purple;
+    box-shadow: 5px 10px 18px black;
+    color: black;
+    margin-top: 100px;
+}
+
+button:hover {
+    background-color: #F7F66A;
+    box-shadow: 5px 10px 18px #F94716;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}

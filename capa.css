@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-repeat: no-repeat;
+    background-image: url(./castelo.png);
+}
+
+h1 {
+    color: white;
+    font-family: monospace;
+    font-style: oblique;
+    background-image: linear-gradient(to right,
+    rgb(178, 103, 207),rgb(192, 31, 179),rgb(255, 0, 234),indigo,violet);
+}
+
+div {
+    display: flex;
+    justify-content: flex-end;
+    padding: 100px;
+}
+
+button {
+    width: 100px;
+    height: 100px;
+    font-size: 15px;
+    font-style: oblique;
+    font-family: Arial;
+    margin-top: -100px;
+    border-radius: 50px;
+    -moz-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+    background-image: linear-gradient(to right, red,green,blue,indigo,violet);
+}
+
+button:hover{
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    opacity: 1.5;
+    border-radius: 50%;
+    -moz-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+img:hover {
+    opacity: 0.1;
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+footer {
+    bottom: 0;
+    width: 100%;
+    position: fixed; 
+    text-align: center;
+    background-color: purple;
+}
+
+footer:hover{
+    color: black;
+    background-color: #F7F66A;
+    box-shadow: 18px 5px 18px #F94716;
+}
+
