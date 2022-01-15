@@ -7,7 +7,7 @@ body{
 
 .imagem {
     text-align: center;   
-    margin-top:30px;
+    margin-top: 60px;
 }
 
 h1, p {
@@ -41,7 +41,7 @@ button {
     background-color: purple;
     box-shadow: 5px 10px 18px black;
     color: black;
-    margin-top: 100px;
+    margin-top: 80px;
 }
 
 button:hover {

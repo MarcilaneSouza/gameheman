@@ -1,6 +1,6 @@
 function selecioneFases() {
     // alert ("Selecione o número correspondente a fase desejada");
-    let fases = prompt("Selecione o número correspondente a fase desejada : \n 1.fase1 \n 2.fase2 \n 3.fase3");
+    let fases = prompt("Selecione o número correspondente a fase desejada : \n 1º fase \n 2º fase \n 3º fase");
     if (fases == 1) {
         alert("Não foi desta vez! Feiticeira foi presa por Esqueleto e não conseguiu salvar He-man.");
         location.replace("gameover.html");
